@@ -1,0 +1,54 @@
+body{
+        overflow: hidden;
+}
+#container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    border: solid black;
+    border-radius: 10px;
+    margin:auto;
+    width:80%;
+    text-align: center;
+
+}
+.game{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    
+}
+.player{
+    display: column;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    margin:5%;
+}
+.player h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:5px;
+
+}
+.dice{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 3px;
+    padding:2px;
+
+}
+
+.play{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  
+    font-size: small;
+    
+}
+
+button{
+    width: 30%;
+    margin-bottom:5%;
+}
